@@ -115,6 +115,7 @@ body
 .navbar ul > li.right
 {
 	float: right;
+	padding-left: 55px;
 }
 
 .navbar ul > li:hover
