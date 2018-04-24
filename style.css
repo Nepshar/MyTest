@@ -99,6 +99,7 @@ body
 	/*padding-bottom: 55px;*/
 	white-space: nowrap;
 	height: 55px;
+	max-width: 100%;
 }
 
 .navbar > ul > li
@@ -112,8 +113,6 @@ body
 	color: white;
 	background-color: #333;
 	background: #333;
-	display: block;
-	white-space: nowrap;
 }
 
 .navbar ul > li.right
