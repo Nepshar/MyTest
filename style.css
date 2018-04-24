@@ -100,6 +100,7 @@ body
 	white-space: nowrap;
 	height: 55px;
 	max-width: 100%;
+	
 }
 
 .navbar > ul > li
@@ -144,16 +145,129 @@ ul.drop-menu li
 	color: white;
 	
 	display: none;
+	perspective: 1000px;
+	-webkit-perspective: 1000px;
+	
+	/*animation: drop-anim-pop 300ms;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;*/
 }
+
+
+
+
 
 li:hover > ul.drop-menu li
 {
 	color: black;
 	display: block;
+	opacity: 1;
 }
 
 li:hover > ul.drop-menu li:hover
 {
 	color: white;
 	background: #333;
+	opacity: 1;
+	
+	/*animation: drop-anim-li 600ms;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;*/
+}
+
+
+ul.drop-menu li.drop-menu-1
+{
+	animation: drop-anim-fall-1 300ms;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+/*ul.drop-menu > li.drop-menu-1:hover
+{
+	animation: drop-anim-li 300ms;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}*/
+
+ul.drop-menu li.drop-menu-2
+{
+	animation: drop-anim-fall-2 300ms;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+ul.drop-menu li.drop-menu-3
+{
+	animation: drop-anim-fall-3  300ms;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+
+@keyframes drop-anim-li
+{
+	0%
+	{
+		opacity: 1;
+	}
+	50%
+	{
+		opacity: 0;
+	}
+	100%
+	{
+		opacity: 1;
+	}
+}
+
+@keyframes drop-anim-fall-1
+{
+	0%
+	{
+		opacity: 0;
+		transform: translateY(-30px) scale(1, 0);
+		-webkit-transform: translateY(-30px) scale(1, 0);
+	}
+	75% { opacity: 1; }
+	100%
+	{
+		opacity: 1;
+		transform: translateY(0px) scale(1, 1);
+		-webkit-transform: translateY(0px) scale(1, 1);
+	}
+}
+
+@keyframes drop-anim-fall-2
+{
+	0%
+	{
+		opacity: 0;
+		transform: translateY(-100px) scale(1, 0);
+		-webkit-transform: translateY(-100px) scale(1, 0);
+	}
+	50% { opacity: 0.8; }
+	100%
+	{
+		opacity: 1;
+		transform: translateY(0px) scale(1, 1);
+		-webkit-transform: translateY(0px) scale(1, 1);
+	}
+}
+
+@keyframes drop-anim-fall-3
+{
+	0%
+	{
+		opacity: 0;
+		transform: translateY(-170px) scale(1, 0);
+		-webkit-transform: translateY(-170px) scale(1, 0);
+	}
+	50% { opacity: 0.75; }
+	100%
+	{
+		opacity: 1;
+		transform: translateY(0px) scale(1, 1);
+		-webkit-transform: translateY(0px) scale(1, 1);
+	}
 }
