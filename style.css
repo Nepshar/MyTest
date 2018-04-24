@@ -87,7 +87,7 @@ body
 	display: block;
 	/*padding-bottom: 55px;*/
 	white-space: nowrap;
-	flex: 30%;
+	flex: 25%;
 }
 
 .navbar > ul > li
@@ -112,6 +112,7 @@ body
 {
 	float: right;
 	white-space: nowrap;
+	z-index: 0;
 }
 
 .navbar ul > li:hover
