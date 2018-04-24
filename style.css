@@ -137,6 +137,9 @@ ul.drop-menu
 	left: 0%;
 	width: 100%;
 	padding: 0;
+	
+	perspective: 1000px;
+	-webkit-perspective: 1000px;
 }
 
 ul.drop-menu li
@@ -226,15 +229,14 @@ ul.drop-menu li.drop-menu-3
 	0%
 	{
 		opacity: 0;
-		transform: translateY(-30px) scale(1, 0);
-		-webkit-transform: translateY(-30px) scale(1, 0);
+		transform: rotateY(-90deg) translateY(30px);
+		-webkit-transform: rotateY(-90deg) translateY(30px);
 	}
-	75% { opacity: 1; }
 	100%
 	{
 		opacity: 1;
-		transform: translateY(0px) scale(1, 1);
-		-webkit-transform: translateY(0px) scale(1, 1);
+		transform: rotateY(0deg) translateY(0px);
+		-webkit-transform: rotateY(0deg) translateY(0px);
 	}
 }
 
@@ -243,15 +245,14 @@ ul.drop-menu li.drop-menu-3
 	0%
 	{
 		opacity: 0;
-		transform: translateY(-100px) scale(1, 0);
-		-webkit-transform: translateY(-100px) scale(1, 0);
+		transform: rotateY(-90deg) translateY(30px);
+		-webkit-transform: rotateY(-90deg) translateY(30px);
 	}
-	50% { opacity: 0.8; }
 	100%
 	{
 		opacity: 1;
-		transform: translateY(0px) scale(1, 1);
-		-webkit-transform: translateY(0px) scale(1, 1);
+		transform: rotateY(0deg) translateY(0px);
+		-webkit-transform: rotateY(0deg) translateY(0px);
 	}
 }
 
@@ -260,14 +261,13 @@ ul.drop-menu li.drop-menu-3
 	0%
 	{
 		opacity: 0;
-		transform: translateY(-170px) scale(1, 0);
-		-webkit-transform: translateY(-170px) scale(1, 0);
+		transform: rotateY(-90deg) translateY(30px);
+		-webkit-transform: rotateY(-90deg) translateY(30px);
 	}
-	50% { opacity: 0.75; }
 	100%
 	{
 		opacity: 1;
-		transform: translateY(0px) scale(1, 1);
-		-webkit-transform: translateY(0px) scale(1, 1);
+		transform: rotateY(0deg) translateY(0px);
+		-webkit-transform: rotateY(0deg) translateY(0px);
 	}
 }
