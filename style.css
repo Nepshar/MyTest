@@ -84,6 +84,7 @@ body
 	background-color: #333;
 	color: #333;
 	background: #333;
+	white-space: nowrap;
 }
 
 .navbar > ul
@@ -95,7 +96,9 @@ body
 	border-radius: 5px;
 	text-align: center;
 	display: block;
-	padding-bottom: 55px;
+	/*padding-bottom: 55px;*/
+	white-space: nowrap;
+	height: 55px;
 }
 
 .navbar > ul > li
@@ -110,12 +113,13 @@ body
 	background-color: #333;
 	background: #333;
 	display: block;
+	white-space: nowrap;
 }
 
 .navbar ul > li.right
 {
 	float: right;
-	margin-left: 250px;
+	white-space: nowrap;
 }
 
 .navbar ul > li:hover
