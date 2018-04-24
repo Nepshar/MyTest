@@ -112,7 +112,7 @@ body
 {
 	float: right;
 	white-space: nowrap;
-	z-index: 0;
+	z-index: -1;
 }
 
 .navbar ul > li:hover
@@ -130,6 +130,7 @@ ul.drop-menu
 	left: 0%;
 	width: 100%;
 	padding: 0;
+	z-index: 5;
 	
 	perspective: 1000px;
 	-webkit-perspective: 1000px;
@@ -139,6 +140,8 @@ ul.drop-menu li
 {
 	background: #ddd;
 	color: white;
+	
+	z-index: 5;
 	
 	display: none;
 	perspective: 1000px;
