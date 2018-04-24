@@ -71,6 +71,9 @@ body
 	color: #333;
 	background: #333;
 	white-space: nowrap;
+	display: flex;
+	flex-wrap: wrap;
+	
 }
 
 .navbar > ul
@@ -84,9 +87,7 @@ body
 	display: block;
 	/*padding-bottom: 55px;*/
 	white-space: nowrap;
-	height: 55px;
-	max-width: 100%;
-	
+	flex: 30%;
 }
 
 .navbar > ul > li
@@ -100,6 +101,8 @@ body
 	color: white;
 	background-color: #333;
 	background: #333;
+	
+	
 	
 	-webkit-transition: background 200ms, color 200ms;
 	transition: background 200ms, color 200ms;
@@ -182,6 +185,7 @@ li:hover > ul.drop-menu li:hover
 	background: #333;
 	opacity: 1;
 }
+
 
 
 
