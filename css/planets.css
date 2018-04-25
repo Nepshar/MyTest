@@ -1,0 +1,51 @@
+.main
+{
+	/*flex: 100%;*/
+	/*background-color: white;*/
+	padding: 400px;
+	z-index: 1;
+	text-decoration: none;
+	
+	background-image: url('../images/sback.jpg'); /* ss.jpg*/
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+img.img-earth
+{
+	transition: 200ms;
+	z-index: 4;
+	position: relative;
+}
+
+img.img-earth:hover
+{
+	z-index: 4;
+	transform: scale(1.1, 1.1);
+}
+
+p.img-earth-text
+{
+	text-decoration: none;
+	z-index: 1;
+	opacity: 0;
+	color: black;
+	transition: 300ms;
+	position: relative;
+	user-select: none;
+	
+	top: -100px;
+	right: -40px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 24px;
+}
+
+img.img-earth:hover + p.img-earth-text
+{
+	text-decoration: none;
+	z-index: 1;
+	top: -200px;
+	right: -80px;
+	opacity: 1;
+	color: white;
+}
