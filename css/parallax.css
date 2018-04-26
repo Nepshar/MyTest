@@ -50,24 +50,40 @@ section.parallax h2
 
 body
 {
-	overflow: visible;
+	background-color: rgb(055, 055, 055);
 }
 
 .main
 {
-	background-color: rgb(245, 245, 245);
 	padding: 10px 0px;
 }
 
 .main p
 {
-	color: rgb(100, 100, 100);
+	color: rgb(240, 240, 240);
 	width: 50%;
 	
 	margin: 0 auto;
-	background-color: rgb(235, 235, 235);
+	background-color: rgb(95, 95, 95);
 	
 	
 	padding: 40px;
 	text-align: center;
+}
+
+.main ul
+{
+	color: rgb(240, 240, 240);
+	width: 50%;
+	
+	margin: 0 auto;
+	background-color: rgb(95, 95, 95);
+	
+	
+	padding: 0 40px;
+}
+
+.main li
+{
+	
 }

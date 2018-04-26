@@ -372,28 +372,3 @@ img.img-planet:hover + p.img-sun-text
 	opacity: 1;
 	color: white;
 }
-
-
-p.img-sun-details
-{
-	text-decoration: none;
-	z-index: 1;
-	opacity: 1;
-	color: white;
-	transition: 200ms;
-	position: relative;
-	user-select: none;
-	
-	top: -200px;
-	right: -800px;
-	font-family: Impact, Charcoal, sans-serif;
-	font-size: 14px;
-}
-
-img.img-planet:hover + p.img-sun-text + p.img-sun-details
-{
-	text-decoration: none;
-	z-index: 1;
-	opacity: 1;
-	color: white;
-}
