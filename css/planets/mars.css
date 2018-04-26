@@ -1,0 +1,5 @@
+section.parallax.parallax-img
+{
+	background-image: url("../../images/backgrounds/mars.jpg");
+	background-position: 100% 100%;
+}

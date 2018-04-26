@@ -6,9 +6,9 @@
 	z-index: 1;
 	text-decoration: none;
 	
-	background-image: url('../images/sback.jpg'); /* ss.jpg*/
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-image: url('../images/backgrounds/sback.jpg'); /* ss.jpg*/
+	/*background-repeat: no-repeat;
+	background-size: 100% 100%;*/
 	box-sizing: border-box;
 	
 	width: 100%;
@@ -16,65 +16,69 @@
 }
 
 
+
+div.planet
+{
+	text-align: center;
+}
+
+div.planet.sun
+{
+	position: relative;
+	top: -200px;
+}
+
 div.planet.mercury
 {
 	position: relative;
 	top: -100px;
-	right: 300px;
 }
 
 div.planet.venus
 {
 	position: relative;
-	top: -310px;
-	right: 100px;
+	top: -100px;
 }
 
 div.planet.earth
 {
 	position: relative;
-	top: -510px;
-	right: -100px;
+	top: -200px;
 }
 
 div.planet.moon
 {
 	position: relative;
-	top: -560px;
-	right: -40px;
+	top: -50px;
+	right: -100px;
 }
 
 div.planet.mars
 {
 	position: relative;
-	top: -845px;
-	right: -300px;
+	top: -200px;
 }
 
 div.planet.jupiter
 {
 	position: relative;
-	top: -1100px;
-	right: -500px;
+	top: -200px;
 }
 
 div.planet.saturn
 {
 	position: relative;
-	top: -1350px;
-	right: -800px;
+	top: -200px;
 }
 div.planet.uranus
 {
 	position: relative;
-	top: -1550px;
-	right: -1100px;
+	top: -200px;
 }
 div.planet.neptune
 {
 	position: relative;
-	top: -1775px;
-	right: -1300px;
+	top: -200px;
 }
 
 img.img-planet
@@ -89,6 +93,8 @@ img.img-planet:hover
 	z-index: 4;
 	transform: scale(1.1, 1.1);
 }
+
+
 
 p.img-earth-text
 {
@@ -115,6 +121,8 @@ img.img-planet:hover + p.img-earth-text
 	opacity: 1;
 	color: white;
 }
+
+
 
 
 
@@ -333,6 +341,59 @@ img.img-planet:hover + p.img-neptune-text
 	z-index: 1;
 	top: -250px;
 	right: -120px;
+	opacity: 1;
+	color: white;
+}
+
+
+
+p.img-sun-text
+{
+	text-decoration: none;
+	z-index: 1;
+	opacity: 0;
+	color: black;
+	transition: 300ms;
+	position: relative;
+	user-select: none;
+	
+	top: -100px;
+	right: -40px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 24px;
+}
+
+img.img-planet:hover + p.img-sun-text
+{
+	text-decoration: none;
+	z-index: 1;
+	top: -300px;
+	right: -200px;
+	opacity: 1;
+	color: white;
+}
+
+
+p.img-sun-details
+{
+	text-decoration: none;
+	z-index: 1;
+	opacity: 1;
+	color: white;
+	transition: 200ms;
+	position: relative;
+	user-select: none;
+	
+	top: -200px;
+	right: -800px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 14px;
+}
+
+img.img-planet:hover + p.img-sun-text + p.img-sun-details
+{
+	text-decoration: none;
+	z-index: 1;
 	opacity: 1;
 	color: white;
 }

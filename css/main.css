@@ -5,13 +5,14 @@ body
 	margin: 0;
 	box-sizing: border-box;
 	max-width: 100%;
-	overflow: hidden;
+	/*overflow-x: hidden;*/
 }
 
 html
 {
 	box-sizing: border-box;
 }
+
 
 *, *:before, *:after
 {
@@ -27,7 +28,7 @@ html
 	-webkit-user-select: none;
 	user-select: none;
 	
-	background-image: url('../images/banners.jpg'); /* ss.jpg*/
+	background-image: url('../images/backgrounds/banners.jpg'); /* ss.jpg*/
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
