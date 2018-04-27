@@ -19,6 +19,7 @@ section.parallax:after
 	right: 0;
 	bottom: 0;
 	top: 0;
+	-webkit-background-color: rgba(0, 0, 0, 0.30);
 	background-color: rgba(0, 0, 0, 0.30);
 	z-index: 100;
 	content: ' ';
@@ -50,6 +51,7 @@ section.parallax h2
 
 body
 {
+	-webkit-background-color: rgb(055, 055, 055);
 	background-color: rgb(055, 055, 055);
 }
 
@@ -77,13 +79,9 @@ body
 	width: 70%;
 	
 	margin: 0 auto;
+	-webkit-background-color: rgb(95, 95, 95);
 	background-color: rgb(95, 95, 95);
 	
 	
 	padding: 0 40px;
-}
-
-.main li
-{
-	
 }
