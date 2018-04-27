@@ -1,14 +1,10 @@
 .main
 {
-	/*flex: 100%;*/
-	/*background-color: white;*/
 	padding: 400px;
 	z-index: 1;
 	text-decoration: none;
 	
-	background-image: url('../images/backgrounds/sback.jpg'); /* ss.jpg*/
-	/*background-repeat: no-repeat;
-	background-size: 100% 100%;*/
+	background-image: url('../images/backgrounds/sback.jpg');
 	box-sizing: border-box;
 	
 	width: 100%;
@@ -83,6 +79,7 @@ div.planet.neptune
 
 img.img-planet
 {
+	-webkit-transition: 200ms;
 	transition: 200ms;
 	z-index: 4;
 	position: relative;
@@ -91,6 +88,7 @@ img.img-planet
 img.img-planet:hover
 {
 	z-index: 4;
+	-webkit-transform: scale(1.1, 1.1);
 	transform: scale(1.1, 1.1);
 }
 
@@ -102,8 +100,10 @@ p.img-earth-text
 	z-index: 1;
 	opacity: 0;
 	color: black;
+	-webkit-transition: 200ms;
 	transition: 200ms;
 	position: relative;
+	-webkit-user-select: none;
 	user-select: none;
 	
 	top: -100px;
@@ -133,8 +133,10 @@ p.img-moon-text
 	z-index: 1;
 	opacity: 0;
 	color: black;
+	-webkit-transition: 300ms;
 	transition: 300ms;
 	position: relative;
+	-webkit-user-select: none;
 	user-select: none;
 	
 	top: -100px;
@@ -159,8 +161,10 @@ p.img-mercury-text
 	z-index: 1;
 	opacity: 0;
 	color: black;
+	-webkit-transition: 300ms;
 	transition: 300ms;
 	position: relative;
+	-webkit-user-select: none;
 	user-select: none;
 	
 	top: -100px;
@@ -185,8 +189,10 @@ p.img-venus-text
 	z-index: 1;
 	opacity: 0;
 	color: black;
+	-webkit-transition: 300ms;
 	transition: 300ms;
 	position: relative;
+	-webkit-user-select: none;
 	user-select: none;
 	
 	top: -100px;
@@ -213,8 +219,10 @@ p.img-mars-text
 	z-index: 1;
 	opacity: 0;
 	color: black;
+	-webkit-transition: 300ms;
 	transition: 300ms;
 	position: relative;
+	-webkit-user-select: none;
 	user-select: none;
 	
 	top: -100px;
@@ -241,8 +249,10 @@ p.img-jupiter-text
 	z-index: 1;
 	opacity: 0;
 	color: black;
+	-webkit-transition: 300ms;
 	transition: 300ms;
 	position: relative;
+	-webkit-user-select: none;
 	user-select: none;
 	
 	top: -100px;
@@ -269,8 +279,10 @@ p.img-saturn-text
 	z-index: 1;
 	opacity: 0;
 	color: black;
+	-webkit-transition: 300ms;
 	transition: 300ms;
 	position: relative;
+	-webkit-user-select: none;
 	user-select: none;
 	
 	top: -100px;
@@ -297,8 +309,10 @@ p.img-uranus-text
 	z-index: 1;
 	opacity: 0;
 	color: black;
+	-webkit-transition: 300ms;
 	transition: 300ms;
 	position: relative;
+	-webkit-user-select: none;
 	user-select: none;
 	
 	top: -100px;
@@ -325,8 +339,10 @@ p.img-neptune-text
 	z-index: 1;
 	opacity: 0;
 	color: black;
+	-webkit-transition: 300ms;
 	transition: 300ms;
 	position: relative;
+	-webkit-user-select: none;
 	user-select: none;
 	
 	top: -100px;
@@ -353,8 +369,10 @@ p.img-sun-text
 	z-index: 1;
 	opacity: 0;
 	color: black;
+	-webkit-transition: 300ms;
 	transition: 300ms;
 	position: relative;
+	-webkit-user-select: none;
 	user-select: none;
 	
 	top: -100px;
